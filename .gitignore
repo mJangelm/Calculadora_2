@@ -1,0 +1,41 @@
+/.angular
+/dist
+/docs
+/node_modules
+/public
+
+.vite-inspect
+.DS_Store
+node_modules
+/dist
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+coverage
+.scannerwork
+#sqp_b6004eb4ce6026dccf31ed2c60827ad6e920b300
+
+
+.openapiconfig
+
+# ignore this file because this is generated from the apigen[-remote] command 
+src/types/api.d.ts
+package-lock.json
+components.d.ts
